@@ -1,0 +1,21 @@
+{
+  "name": "coffee-erc20-token",
+  "version": "1.0.0",
+  "description": "Ethereum tuto - ERC20 token",
+  "author": "Firdaws Aboulaye",
+  "license": "ISC",
+  "main": "index.js",
+  "scripts": {
+    "compile": "truffle compile",
+    "test": "truffle test",
+    "test:rinkeby": "truffle test --network rinkeby",
+    "deploy:rinkeby": "truffle deploy --network rinkeby"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.4.1",
+    "@truffle/hdwallet-provider": "^2.0.0"
+  },
+  "devDependencies": {
+    "dotenv": "^10.0.0"
+  }
+}
